@@ -3,7 +3,12 @@
     width: 350px;
     margin: 0 auto;
   }
-
+  nav {
+	padding: 35px 0;
+}
+nav ul li .logo {
+	font-size: 44px;
+}
   #feature-about .image-part {
 	width: 88%;
 	margin-left: 8px;
@@ -14,23 +19,30 @@
   }
 
   #banner .text .tittle h2 {
-    font-size: 18px;
-  }
+	font-size: 30px;
+}
 
-  #banner .text .description p {
-    width: 300px;
-    text-align: center;
-    margin-left: 5px;
-  }
+#banner .text .description p {
+	width: 353px;
+	text-align: center;
+}
 
   #banner .text a {
     font-size: 18px;
     display: block;
   }
 
+  #explorer-part {
+	margin-top: 32px;
+	margin-bottom: 65px;
+}
+
   #explorer-part .image-part {
     display: block;
   }
+  #explorer-part .image-part img {
+	margin-top: 5px;
+}
 
   #explorer-part .content {
     flex-direction: column;
@@ -106,6 +118,25 @@
   #portfolio-part .overlay {
 	font-size: 13px;
 	padding: 10px 0;
+}
+#portfolio-part {
+	margin-top: 62px;
+} 
+#portfolio-part .images {
+	flex-direction: column;
+}
+#portfolio-part .port-image {
+	width: 95%;
+	margin: 4px 15px;
+}
+
+#footer {
+	margin-top: 53px;
+	margin-bottom: 40px;
+}
+#footer .text p {
+	font-size: 12px;
+	padding: 16px 19px;
 }
 
   /* ==============================     */
