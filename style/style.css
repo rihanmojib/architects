@@ -234,8 +234,7 @@ nav ul li .logo {
 /* >>>>>>>>Feature about Part end<<<<<< */
 /* /////////////////////////////////// */
 /* >>>>>>>>fact  Part Part start<<<<<< */
-#fact-part {
-}
+
 #fact-part .tittle h3 {
   font-family: "Work Sans";
   font-style: normal;
@@ -324,17 +323,67 @@ nav ul li .logo {
   height: 50px;
   box-sizing: border-box;
   filter: grayscale(100%);
-  transition: .3s;
+  transition: 0.3s;
 }
 #spon-part .content .icon-part img:hover {
   filter: grayscale(0);
 }
 /* >>>>>>>>sponser  Part end<<<<<< */
 /* /////////////////////////////////// */
+/* >>>>>>>>portfolio  Part start<<<<<< */
+#portfolio-part {
+  margin-top: 100px;
+}
+#portfolio-part .title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-size: 25px;
+}
+#portfolio-part .title h3 {
+  color: #727272;
+}
+#portfolio-part .images {
+  display: flex;
+  flex-direction: row;
+}
+#portfolio-part .port-image {
+  width: 30%;
+  margin: 0 15px;
+  position: relative;
+}
+#portfolio-part .overlay {
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0f2f44;
+  position: absolute;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+  transition: 0.4s;
+}
+#portfolio-part .port-image img {
+  width: 100%;
+}
+#portfolio-part .port-image:hover .overlay {
+  opacity: 1;
+}
+
+
+/* >>>>>>>>portfolio  Part end<<<<<< */
+/* /////////////////////////////////// */
 /* >>>>>>>>footer  Part start<<<<<< */
 #footer {
-  margin-top: 130px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 #footer .text {
   background: #ff900e1a;
@@ -346,7 +395,7 @@ nav ul li .logo {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  padding: 35px 0px;
+  padding: 25px 0px;
   color: #424242;
 }
 
