@@ -112,7 +112,6 @@ nav ul li .logo {
   border-radius: 8px;
 }
 #explorer-part .text-part {
-  height: 100px;
   width: 50%;
   margin-left: 73px;
   font-family: "Work Sans";
@@ -383,7 +382,7 @@ nav ul li .logo {
 /* >>>>>>>>footer  Part start<<<<<< */
 #footer {
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 #footer .text {
   background: #ff900e1a;
