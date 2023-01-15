@@ -1,0 +1,241 @@
+/* common style start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* common style end */
+/* ////////////////////////////////// */
+/* >>>>>>>>header part start<<<<<< */
+
+nav {
+  padding: 66px 0;
+  background: #ff900e1a;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  margin-left: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Work Sans";
+  font-size: 18px;
+}
+nav ul li .logo {
+  margin-right: 673px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+}
+/* >>>>>>>>header part end<<<<<< */
+/* /////////////////////////////////// */
+/* >>>>>>>>banner part start<<<<<< */
+#banner {
+  padding: 36px 0;
+  background: #ff900e1a;
+}
+/* #banner .text {
+} */
+#banner .text .tittle h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+#banner .text .description p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 868px;
+  margin: 32px auto;
+  text-align: center;
+}
+#banner .text .button {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+#banner .text a {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+#banner .image {
+  border-radius: 8px;
+  margin-top: 58px;
+}
+#banner .image img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* >>>>>>>>banner part end<<<<<< */
+/* /////////////////////////////////// */
+/* >>>>>>>>explorer part start<<<<<< */
+#explorer-part {
+  margin-top: 102px;
+  margin-bottom: 100px;
+}
+#explorer-part .content {
+  display: flex;
+  flex-direction: row;
+}
+#explorer-part .image-part {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 316px 1fr;
+  grid-gap: 24px;
+}
+#explorer-part .image-part img {
+  width: 320px;
+  height: 324px;
+  border-radius: 8px;
+}
+#explorer-part .text-part {
+  height: 100px;
+  width: 50%;
+  margin-left: 73px;
+  font-family: "Work Sans";
+  font-style: normal;
+  justify-self: center;
+  align-self: center;
+  margin-top: -150px;
+}
+#explorer-part .text-part h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+#explorer-part .text-part h2 .quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+#explorer-part .text-part .feature {
+  color: #ff900e;
+}
+#explorer-part .text-part p {
+  width: 537px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 56px;
+  color: #727272;
+}
+#explorer-part .text-part a {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+/* >>>>>>>>explorer part end<<<<<< */
+/* /////////////////////////////////// */
+/* >>>>>>>>Feature about Part start<<<<<< */
+#feature-about {
+}
+#feature-about .content {
+  display: flex;
+  flex-direction: row;
+}
+#feature-about .text-part {
+  width: 50%;
+}
+#feature-about .text-part .tittle {
+  width: 468px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  border-left: 6px solid #ff900e;
+  padding-left: 21px;
+}
+#feature-about .text-part .description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 550px;
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+#feature-about .text-part .text-box {
+  width: 586px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+#feature-about .text-part .text-box h5 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+#feature-about .text-part .text-box p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+}
+#feature-about .image-part {
+  width: 50%;
+  margin-left: 90px;
+}
+#feature-about .image-part .image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+#feature-about .image-part .text {
+  font-family: "Work Sans";
+  font-style: normal;
+  position: relative;
+  top: -10%;
+  left: -8%;
+}
+#feature-about .image-part .text h3 {
+  display: inline-block;
+  padding: 45px 42px;
+  border-radius: 9px;
+  font-size: 65px;
+  background: #ff900e;
+  color: #ffffff;
+}
+#feature-about .image-part .text h3 .experience {
+  display: block;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* >>>>>>>>Feature about Part end<<<<<< */
+/* /////////////////////////////////// */
+/* >>>>>>>>fact  Part Part start<<<<<< */
+
+
+/* >>>>>>>>fact  Part Part end<<<<<< */
+/* /////////////////////////////////// */
